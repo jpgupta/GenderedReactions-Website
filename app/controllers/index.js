@@ -103,19 +103,19 @@ Ember.Controller.extend({
             return parseInt(bCount) - parseInt(aCount);
         });
 
-        for(var i = 0; i < sortedOverall.length; i++) {
+        for (var i = 0; i < sortedOverall.length; i++) {
             var adverseEvent = sortedOverall[i];
 
             var malePercent =
-                Math.round( (parseInt(adverseEvent.maleCount)
-                    / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100 ),
+                    Math.round((parseInt(adverseEvent.maleCount)
+                        / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100),
 
                 femalePercent =
-                Math.round( (parseInt(adverseEvent.femaleCount)
-                    / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100 );
+                    Math.round((parseInt(adverseEvent.femaleCount)
+                        / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100);
 
-            var maleStyle = "width:" + malePercent +"%;",
-                femaleStyle = "width:" + femalePercent +"%;";
+            var maleStyle = "width:" + malePercent + "%;",
+                femaleStyle = "width:" + femalePercent + "%;";
 
             adverseEvent.malePercent = malePercent;
             adverseEvent.femalePercent = femalePercent;
@@ -130,43 +130,49 @@ Ember.Controller.extend({
     }.observes('drug'),
 
     createMaleSymptomsBarChart: function () {
-        if(!this.get('maleBarChartCanvas')) {
-            console.log("Male bar chart canvas not set yet");
+        if (!this.get('maleBarChartCanvas')) {
             return;
         }
-        console.log("Male bar chart canvas now setting");
-        var topMaleAdverseEffects = this.get('topMaleAdverseEffects');
 
-        var labels = [], data = [];
+        var topMaleAdverseEffects = this.get('topMaleAdverseEffects'),
+            labels = [],
+            data = [];
 
         for (var i = 0; i < topMaleAdverseEffects.length; i++) {
             labels.push(topMaleAdverseEffects[i].event);
-            data.push(topMaleAdverseEffects[i].maleCount);
+            data.push({
+                drug: topMaleAdverseEffects[i].event,
+                value: topMaleAdverseEffects[i].maleCount
+            });
         }
 
-        this.get('maleBarChartCanvas').clearRect ( 0 , 0 , 400 , 450 );
         var maleBarChartCanvas = this.get('maleBarChartCanvas');
 
-        var barChartData = {
-            labels: labels,
-            datasets: [
-                {
-                    fillColor: "rgba(220,220,220,0.5)",
-                    strokeColor: "rgba(220,220,220,1)",
-                    highlightFill: "rgba(220,220,220,0.75)",
-                    highlightStroke: "rgba(220,220,220,1)",
-                    data: data
-                }
-            ]
+        new Morris.Line({
+            // ID of the element in which to draw the chart.
+            element: 'maleBarChartCanvas',
+            // Chart data records -- each entry in this array corresponds to a point on
+            // the chart.
+            data: [
+                { year: '2008', value: 20 },
+                { year: '2009', value: 10 },
+                { year: '2010', value: 5 },
+                { year: '2011', value: 5 },
+                { year: '2012', value: 20 }
+            ],
+            // The name of the data record attribute that contains x-values.
+            xkey: 'year',
+            // A list of names of data record attributes that contain y-values.
+            ykeys: ['value'],
+            // Labels for the ykeys -- will be displayed when you hover over the
+            // chart.
+            labels: ['Value']
+        });
 
-        }
-
-        var myLine = new Chart(maleBarChartCanvas).Bar(barChartData);
-        console.log("Male bar chart set!");
     }.observes('drug', 'maleBarChartCanvas'),
 
     createFemaleSymptomsBarChart: function () {
-        if(!this.get('femaleBarChartCanvas'))
+        if (!this.get('femaleBarChartCanvas'))
             return;
 
         var topFemaleAdverseEffects = this.get('topFemaleAdverseEffects');

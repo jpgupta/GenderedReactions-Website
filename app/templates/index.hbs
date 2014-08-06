@@ -3,18 +3,18 @@
 
     <h3>Find out for yourself</h3>
 
-    <div class="row margin-bottom-16">
-        <div class="col-md-10">
+    <div class="row">
+        <div class="col-md-10 margin-bottom-16">
             {{input type='text' value=searchTerm classNames='form-control cfg-input'
             placeholder='Enter a drug name to see some interesting info' action="getAdverseEffectsForDrug" }}
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 margin-bottom-16">
             <button class='form-control cfg-button' {{action 'getAdverseEffectsForDrug'}}>Hit it</button>
         </div>
     </div>
     {{#if drug}}
-        <div class="row margin-bottom-16">
-            <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-2 margin-bottom-16">
                 <div class="card">
                     <h2 class="uc-first">{{drug.genericName}}</h2>
                     <p>
@@ -45,16 +45,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 margin-bottom-16">
                 <div class="card text-center">
                     <h3>Male</h3>
                     {{#view "bar-chart"}}
-                        <canvas id="maleBarChartCanvas" height="300" width="400"
-                                style="width: 400px; height: 300px;"></canvas>
+                        <div id="maleBarChartCanvas" style="height: 300px;"></div>
                     {{/view}}
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 margin-bottom-16">
                 <div class="card text-center">
                     <h3>Female</h3>
                     {{#view "bar-chart"}}
@@ -65,7 +64,7 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-md-10 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-2 margin-bottom-16">
             {{#each adverseEffect in topOverallAdverseEvents}}
                 {{partial "fda-card"}}
             {{/each}}
