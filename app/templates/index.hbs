@@ -1,0 +1,75 @@
+<div class="container">
+    <h1 class="margin-bottom-16">men and women are equal, but not the same.</h1>
+
+    <h3>Find out for yourself</h3>
+
+    <div class="row margin-bottom-16">
+        <div class="col-md-10">
+            {{input type='text' value=searchTerm classNames='form-control cfg-input'
+            placeholder='Enter a drug name to see some interesting info' action="getAdverseEffectsForDrug" }}
+        </div>
+        <div class="col-md-2">
+            <button class='form-control cfg-button' {{action 'getAdverseEffectsForDrug'}}>Hit it</button>
+        </div>
+    </div>
+    {{#if drug}}
+        <div class="row margin-bottom-16">
+            <div class="col-md-2">
+                <div class="card">
+                    <h2 class="uc-first">{{drug.genericName}}</h2>
+                    <p>
+                        <small>Total reported side-effects</small>
+                        <font class="pull-right">{{overallEventCount}}</font>
+                    </p>
+                    <p class="lead">
+                        Male
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100"
+                            {{bind-attr aria-valuenow=percentageOfMaleEvents
+                            style=maleTotalEventStyle}}>
+                            <span>{{percentageOfMaleEvents}}&</span>
+                        </div>
+                    </div>
+                    <p class="lead">
+                        Female
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100"
+                            {{bind-attr aria-valuenow=percentageOfFemaleEvents
+                            style=femaleTotalEventStyle}}>
+                            <span>{{percentageOfFemaleEvents}}%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card text-center">
+                    <h3>Male</h3>
+                    {{#view "bar-chart"}}
+                        <canvas id="maleBarChartCanvas" height="300" width="400"
+                                style="width: 400px; height: 300px;"></canvas>
+                    {{/view}}
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card text-center">
+                    <h3>Female</h3>
+                    {{#view "bar-chart"}}
+                        <canvas id="femaleBarChartCanvas" height="300" width="400"
+                                style="width: 400px; height: 300px;"></canvas>
+                    {{/view}}
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            {{#each adverseEffect in topOverallAdverseEvents}}
+                {{partial "fda-card"}}
+            {{/each}}
+        </div>
+    </div>
+    {{/if}}
+</div>

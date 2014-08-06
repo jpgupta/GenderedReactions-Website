@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cfgmedicine</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/cfgmedicine.css">
+  </head>
+  <body>
+    <script>
+      window.CfgmedicineENV = {{ENV}};
+      window.EmberENV = window.CfgmedicineENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/cfgmedicine.js"></script>
+    <script>
+      window.Cfgmedicine = require('cfgmedicine/app')['default'].create(CfgmedicineENV.APP);
+    </script>
+  </body>
+</html>

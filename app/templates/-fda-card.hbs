@@ -1,0 +1,27 @@
+<div class="row margin-bottom-16">
+    <div class="col-md-12">
+        <div class="card">
+            <h3>{{adverseEffect.event}}</h3>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100"
+                             {{bind-attr aria-valuenow=adverseEffect.malePercent  style=adverseEffect.maleStyle}}>
+                            <span>{{adverseEffect.malePercent}}%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100"
+                            {{bind-attr aria-valuenow=adverseEffect.femalePercent  style=adverseEffect.femaleStyle}}>
+                            <span>{{adverseEffect.femalePercent}}%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
