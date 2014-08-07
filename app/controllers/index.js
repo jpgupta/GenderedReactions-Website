@@ -201,8 +201,8 @@ Ember.Controller.extend(SlideController, {
                 dataType: 'jsonp',
                 success: function (response) {
                     this.set('fetchingDrugData', false);
-                    this.transitionTo('drug', this.get('searchTerm'));
-                    //this.set('drug', response.drug);
+                    //this.transitionTo('drug', this.get('searchTerm'));
+                    this.set('drug', response.drug);
                 }.bind(this),
                 error: function (error) {
                     this.set('fetchingDrugData', false);
