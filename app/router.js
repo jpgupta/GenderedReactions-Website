@@ -13,6 +13,7 @@ Router.map(function () {
     this.route('case-studies');
     this.route('disclaimer');
     this.route('news');
+    this.route('developers');
 });
 
 export default
