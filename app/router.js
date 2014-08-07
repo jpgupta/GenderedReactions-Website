@@ -15,6 +15,7 @@ Router.map(function () {
     this.route('disclaimer');
     this.route('news');
     this.route('developers');
+    this.route('checklist');
 });
 
 export default
