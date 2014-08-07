@@ -5,11 +5,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
+* {
+    margin: 0;
+}
 html, body {
     background-color: rgb(6, 120, 136);
     font-family: 'Muli-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: ghostwhite;
+    height: 100% !important;
 }
 
 /*
@@ -134,4 +137,21 @@ html, body {
 }
 .nav>li>a:hover, .nav>li>a:focus {
     background: rgb(235, 235, 235);
+}
+
+/*
+ * Footer
+ */
+body > .ember-view {
+    min-height: 100%; !important
+}
+.wrap {
+    min-height:100% !important
+}
+.footer {
+    /* position:fixed ;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    */
 }

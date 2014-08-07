@@ -23,7 +23,8 @@ export default Ember.Route.extend({
             },
             error: function (error) {
                 console.dir(error);
-            }
+                this.transitionTo('index');
+            }.bind(this)
         });
     },
 
