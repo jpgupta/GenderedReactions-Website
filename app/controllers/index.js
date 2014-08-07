@@ -59,9 +59,6 @@ Ember.Controller.extend(SlideController, {
     }.observes('drug'),
 
     top10SideEffects: function () {
-        if (!this.get('drug'))
-            return;
-
         var adverseEffects = this.get('drug.adverseEffects'),
             sortedForMales = [],
             sortedForFemales = [],
@@ -110,16 +107,23 @@ Ember.Controller.extend(SlideController, {
         /*
          * Horizontal bar percentages and styling for each symptom card
          */
+        var top10MaleEventCount = 0,
+            top10FemaleEventCount = 0;
+        for (var i = 0; i < 10; i++) {
+            if(parseInt(sortedOverall[i].maleCount))
+                top10MaleEventCount += parseInt(sortedOverall[i].maleCount);
+            if(parseInt(sortedOverall[i].femaleCount)) {
+                top10FemaleEventCount += parseInt(sortedOverall[i].femaleCount);
+            }
+        }
         for (var i = 0; i < sortedOverall.length; i++) {
             var adverseEvent = sortedOverall[i];
 
             var malePercent =
-                    Math.round((parseInt(adverseEvent.maleCount)
-                        / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100),
+                    Math.round( (parseInt(adverseEvent.maleCount) / top10MaleEventCount ) * 100),
 
                 femalePercent =
-                    Math.round((parseInt(adverseEvent.femaleCount)
-                        / ( parseInt(adverseEvent.maleCount) + parseInt(adverseEvent.femaleCount) ) ) * 100);
+                    Math.round( (parseInt(adverseEvent.femaleCount) / top10FemaleEventCount ) * 100);
 
             var maleStyle = "width:" + malePercent + "%;",
                 femaleStyle = "width:" + femalePercent + "%;";
@@ -134,7 +138,7 @@ Ember.Controller.extend(SlideController, {
         this.set('topFemaleAdverseEffects', sortedForFemales.splice(0, 10));
         this.set('topOverallAdverseEvents', sortedOverall.splice(0, 10));
 
-    }.observes('drug'),
+    }.observes('overallMaleEventCount.length', 'overallFemaleEventCount.length'),
 
     createOverallAdverseEventBarChart: function () {
         if (!this.get('topOverallAdverseEvents') || !this.get('topOverallAdverseEvents.length'))
@@ -171,14 +175,14 @@ Ember.Controller.extend(SlideController, {
 
         for (var i = 0; i < topOverallAdverseEvents.length; i++) {
             data.push({
-                label: topOverallAdverseEvents[i].event,
+                group: topOverallAdverseEvents[i].event,
                 value: topOverallAdverseEvents[i].maleCount,
-                group: "Male"
+                label: "Male"
             });
             data.push({
-                label: topOverallAdverseEvents[i].event,
+                group: topOverallAdverseEvents[i].event,
                 value: topOverallAdverseEvents[i].femaleCount,
-                group: "Female"
+                label: "Female"
             });
         }
         this.set('topOverallAdverseEventsBarData', data);
