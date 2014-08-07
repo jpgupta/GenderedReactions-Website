@@ -11,6 +11,7 @@
 # misc
 /.sass-cache
 /.idea/*
+/.idea/workspace.xml
 /connect.lock
 /coverage/*
 /libpeerconnection.log
