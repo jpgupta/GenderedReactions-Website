@@ -100,14 +100,16 @@ Ember.Controller.extend(SlideController, {
             if (a.maleCount && a.maleCount !== "null")
                 aCount += parseInt(a.maleCount);
 
-            if (b.maleCount && b.maleCount !== "null")
-                bCount += parseInt(b.maleCount);
+            if (b.femaleCount && b.femaleCount !== "null")
+                bCount += parseInt(b.femaleCount);
             if (b.maleCount && b.maleCount !== "null")
                 bCount += parseInt(b.maleCount);
 
             return parseInt(bCount) - parseInt(aCount);
         });
-
+        /*
+         * Horizontal bar percentages and styling for each symptom card
+         */
         for (var i = 0; i < sortedOverall.length; i++) {
             var adverseEvent = sortedOverall[i];
 
@@ -138,9 +140,10 @@ Ember.Controller.extend(SlideController, {
         if (!this.get('topOverallAdverseEvents') || !this.get('topOverallAdverseEvents.length'))
             return;
 
+        /* Comment this out */
+        return;
+
         var topOverallAdverseEvents = this.get('topOverallAdverseEvents'),
-        //var topMaleAdverseEffects = this.get('topMaleAdverseEffects'),
-        //    topFemaleAdverseEffects = this.get('topFemaleAdverseEffects'),
             data = [];
 
         for (var i = 0; i < topOverallAdverseEvents.length; i++) {
@@ -154,18 +157,30 @@ Ember.Controller.extend(SlideController, {
                 value: topOverallAdverseEvents[i].femaleCount,
                 group: "Female"
             });
-//            data.push({
-//                label: topMaleAdverseEffects[i].event,
-//                value: topMaleAdverseEffects[i].maleCount,
-//                group: "Male"
-//            });
-//            data.push({
-//                label: topFemaleAdverseEffects[i].event,
-//                value: topFemaleAdverseEffects[i].femaleCount,
-//                group: "Female"
-//            });
         }
-        console.dir(data);
+        this.set('topOverallAdverseEventsBarData', data);
+
+    }.observes('topOverallAdverseEvents.length'),
+
+    createOverallAdverseEventSideBySideBarChart: function () {
+        if (!this.get('topOverallAdverseEvents') || !this.get('topOverallAdverseEvents.length'))
+            return;
+
+        var topOverallAdverseEvents = this.get('topOverallAdverseEvents'),
+            data = [];
+
+        for (var i = 0; i < topOverallAdverseEvents.length; i++) {
+            data.push({
+                label: topOverallAdverseEvents[i].event,
+                value: topOverallAdverseEvents[i].maleCount,
+                group: "Male"
+            });
+            data.push({
+                label: topOverallAdverseEvents[i].event,
+                value: topOverallAdverseEvents[i].femaleCount,
+                group: "Female"
+            });
+        }
         this.set('topOverallAdverseEventsBarData', data);
 
     }.observes('topOverallAdverseEvents.length'),

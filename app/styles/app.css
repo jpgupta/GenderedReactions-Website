@@ -113,8 +113,8 @@ html, body {
  */
 
 .navbar-main {
-    background: rgb(7, 93, 105);
-    color: white;
+    background: white;
+    color: rgb(7, 93, 105);
     border:none;
     border-radius: 0px;
 }
@@ -122,11 +122,12 @@ html, body {
     margin-top: -4px;
 }
 .navbar-main a  {
-    color:white;
+    color:rgb(7, 93, 105);
+    font-weight: bold;
 }
 .navbar-main li a.active {
-    background: rgb(6, 120, 136);
+    background: rgb(241, 241, 241);
 }
 .nav>li>a:hover, .nav>li>a:focus {
-    background: rgb(17, 103, 116);
+    background: rgb(235, 235, 235);
 }
