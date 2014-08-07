@@ -47,6 +47,10 @@ html, body {
     height: auto;
 }
 
+.cfgtext a {
+    color: #bce8f1;
+}
+
 .card {
     width:100%;
     background-color: white;
