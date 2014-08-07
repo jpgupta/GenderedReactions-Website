@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="34" selection-start="3787" selection-end="3787" vertical-scroll-proportion="0.7882562" vertical-offset="1070" max-vertical-offset="1666">
+            <state line="89" column="34" selection-start="3787" selection-end="3787" vertical-scroll-proportion="-58.192307" vertical-offset="0" max-vertical-offset="1666">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -48,6 +48,15 @@
         <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="42" selection-start="60" selection-end="60" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="70" selection-start="7747" selection-end="7747" vertical-scroll-proportion="0.664966" vertical-offset="3060" max-vertical-offset="3774">
               <folding />
             </state>
           </provider>
@@ -66,7 +75,17 @@
         <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="6" selection-start="1531" selection-end="1531" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="595">
-              <folding />
+              <folding>
+                <marker date="1407419909931" expanded="true" signature="60:1530" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="83:1523" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="109:1512" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="157:1497" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="714:1478" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="823:902" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="931:1455" placeholder="..." />
+                <marker date="1407419909931" expanded="true" signature="953:1411" placeholder="{...}" />
+                <marker date="1407419909931" expanded="true" signature="1124:1389" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +122,6 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/Brocfile.js" />
         <option value="$PROJECT_DIR$/app/models/drug.js" />
-        <option value="$PROJECT_DIR$/app/controllers/index.js" />
         <option value="$PROJECT_DIR$/app/routes/index.js" />
         <option value="$PROJECT_DIR$/app/router.js" />
         <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
@@ -113,6 +131,7 @@
         <option value="$PROJECT_DIR$/app/templates/-instructions.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
         <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/controllers/index.js" />
       </list>
     </option>
   </component>
@@ -428,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="15" selection-start="7346" selection-end="7943" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/drug.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
@@ -473,7 +485,17 @@
     <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="6" selection-start="1531" selection-end="1531" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="595">
-          <folding />
+          <folding>
+            <marker date="1407419909931" expanded="true" signature="60:1530" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="83:1523" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="109:1512" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="157:1497" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="714:1478" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="823:902" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="931:1455" placeholder="..." />
+            <marker date="1407419909931" expanded="true" signature="953:1411" placeholder="{...}" />
+            <marker date="1407419909931" expanded="true" signature="1124:1389" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,11 +508,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="34" selection-start="3787" selection-end="3787" vertical-scroll-proportion="0.7882562" vertical-offset="1070" max-vertical-offset="1666">
+        <state line="89" column="34" selection-start="3787" selection-end="3787" vertical-scroll-proportion="-58.192307" vertical-offset="0" max-vertical-offset="1666">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="70" selection-start="7747" selection-end="7747" vertical-scroll-proportion="0.664966" vertical-offset="3060" max-vertical-offset="3774">
+          <folding />
         </state>
       </provider>
     </entry>
