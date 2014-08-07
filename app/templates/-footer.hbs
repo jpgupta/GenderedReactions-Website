@@ -2,16 +2,28 @@
 <div class="container-fluid footer">
     <div class="card">
         <div class="row">
-            <div class="col-md-4">
-                {{#link-to 'index' tagName='a'}}Home{{/link-to}} <br>
-                {{#link-to 'about' tagName='a'}}About{{/link-to}} <br>
-                {{#link-to 'case-studies' tagName='a'}}Case Studies{{/link-to}} <br>
-                {{#link-to 'developers' tagName='a'}}developers{{/link-to}} <br>
-                {{#link-to 'news' tagName='a'}}News{{/link-to}} <br>
-                {{#link-to 'disclaimer' tagName='a'}}Disclaimer{{/link-to}}
-            </div>
-            <div class="col-md-4 pull-right">
+            <div class="col-md-12 text-center">
+                {{#link-to 'index' tagName='a'}}Home{{/link-to}}
+                {{#link-to 'about' tagName='a'}}About{{/link-to}}
+                {{#link-to 'case-studies' tagName='a'}}Case Studies{{/link-to}}
+                {{#link-to 'developers' tagName='a'}}Developers{{/link-to}}
+                {{#link-to 'news' tagName='a'}}News{{/link-to}}
+                {{#link-to 'disclaimer' tagName='a'}}Disclaimer{{/link-to}} <br>
 
+                <div class="inline-block">Copyright 2014 The Think Train |</div>
+                <div class="inline-block">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="GenderMedKI"
+                       data-size="large" data-hashtags="sexymedicine">Tweet</a>
+                    <script>!function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');</script>
+                </div>
             </div>
         </div>
     </div>
