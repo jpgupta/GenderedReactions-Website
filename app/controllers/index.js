@@ -3,8 +3,13 @@ Ember
 from
 'ember';
 
+import
+SlideController
+from
+'../mixins/slide-controller';
+
 export default
-Ember.Controller.extend({
+Ember.Controller.extend(SlideController, {
     drug: null,
 
     overallEventCount: 0,
@@ -129,82 +134,46 @@ Ember.Controller.extend({
 
     }.observes('drug'),
 
-    createMaleSymptomsBarChart: function () {
-        if (!this.get('maleBarChartCanvas')) {
+    createOverallAdverseEventBarChart: function () {
+        if (!this.get('topOverallAdverseEvents') || !this.get('topOverallAdverseEvents.length'))
             return;
-        }
 
-        var topMaleAdverseEffects = this.get('topMaleAdverseEffects'),
-            labels = [],
+        var topOverallAdverseEvents = this.get('topOverallAdverseEvents'),
+        //var topMaleAdverseEffects = this.get('topMaleAdverseEffects'),
+        //    topFemaleAdverseEffects = this.get('topFemaleAdverseEffects'),
             data = [];
 
-        for (var i = 0; i < topMaleAdverseEffects.length; i++) {
-            labels.push(topMaleAdverseEffects[i].event);
+        for (var i = 0; i < topOverallAdverseEvents.length; i++) {
             data.push({
-                drug: topMaleAdverseEffects[i].event,
-                value: topMaleAdverseEffects[i].maleCount
+                label: topOverallAdverseEvents[i].event,
+                value: topOverallAdverseEvents[i].maleCount,
+                group: "Male"
             });
+            data.push({
+                label: topOverallAdverseEvents[i].event,
+                value: topOverallAdverseEvents[i].femaleCount,
+                group: "Female"
+            });
+//            data.push({
+//                label: topMaleAdverseEffects[i].event,
+//                value: topMaleAdverseEffects[i].maleCount,
+//                group: "Male"
+//            });
+//            data.push({
+//                label: topFemaleAdverseEffects[i].event,
+//                value: topFemaleAdverseEffects[i].femaleCount,
+//                group: "Female"
+//            });
         }
+        console.dir(data);
+        this.set('topOverallAdverseEventsBarData', data);
 
-        var maleBarChartCanvas = this.get('maleBarChartCanvas');
-
-        new Morris.Line({
-            // ID of the element in which to draw the chart.
-            element: 'maleBarChartCanvas',
-            // Chart data records -- each entry in this array corresponds to a point on
-            // the chart.
-            data: [
-                { year: '2008', value: 20 },
-                { year: '2009', value: 10 },
-                { year: '2010', value: 5 },
-                { year: '2011', value: 5 },
-                { year: '2012', value: 20 }
-            ],
-            // The name of the data record attribute that contains x-values.
-            xkey: 'year',
-            // A list of names of data record attributes that contain y-values.
-            ykeys: ['value'],
-            // Labels for the ykeys -- will be displayed when you hover over the
-            // chart.
-            labels: ['Value']
-        });
-
-    }.observes('drug', 'maleBarChartCanvas'),
-
-    createFemaleSymptomsBarChart: function () {
-        if (!this.get('femaleBarChartCanvas'))
-            return;
-
-        var topFemaleAdverseEffects = this.get('topFemaleAdverseEffects');
-
-        var labels = [], data = [];
-
-        for (var i = 0; i < topFemaleAdverseEffects.length; i++) {
-            labels.push(topFemaleAdverseEffects[i].event);
-            data.push(topFemaleAdverseEffects[i].femaleCount);
-        }
-
-        var femaleBarChartCanvas = this.get('femaleBarChartCanvas');
-
-        var barChartData = {
-            labels: labels,
-            datasets: [
-                {
-                    fillColor: "rgba(220,220,220,0.5)",
-                    strokeColor: "rgba(220,220,220,1)",
-                    highlightFill: "rgba(220,220,220,0.75)",
-                    highlightStroke: "rgba(220,220,220,1)",
-                    data: data
-                }
-            ]
-
-        }
-
-        var myLine = new Chart(femaleBarChartCanvas).Bar(barChartData);
-    }.observes('drug', 'femaleBarChartCanvas'),
+    }.observes('topOverallAdverseEvents.length'),
 
     actions: {
         getAdverseEffectsForDrug: function () {
+            this.set('fetchingDrugData', true);
+            this.set('drug', null);
             $.ajax({
                 url: 'http://api.genderedreactions.com/drug/name/' + this.get('searchTerm'),
                 data: {},
@@ -212,11 +181,13 @@ Ember.Controller.extend({
                 crossDomain: true,
                 dataType: 'jsonp',
                 success: function (response) {
+                    this.set('fetchingDrugData', false);
                     this.set('drug', response.drug);
                 }.bind(this),
                 error: function (error) {
+                    this.set('fetchingDrugData', false);
                     console.dir(error);
-                }
+                }.bind(this)
             });
 
         }
