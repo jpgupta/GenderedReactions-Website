@@ -1,1 +1,54 @@
-{{outlet 'main'}}
+<div class="container">
+    <h2 class="margin-bottom-16">GenderedReactions.com: think seXY for excellent research</h2>
+
+    <h4 class="cfgtext">Help discover how drugs affect men and women differently, tweet your findings with <a
+            href="https://twitter.com/search?q=%23sexymedicine" target="_blank">#seXYmedicine</a></h4>
+
+    <div class="row">
+        <div class="col-md-10 margin-bottom-16">
+            {{input type='text' value=searchTerm classNames='form-control cfg-input'
+            placeholder='Enter a drug name to see some interesting info' action="getAdverseEffectsForDrug" }}
+            {{#if autocompleteNames.length}}
+                {{#each name in autocompleteNames}}
+                    <div class="row" {{action 'autocompleteSelected' name}}>
+                        <div class="col-md-12">
+                            <div class="autocomplete-row">
+                                <p>{{name}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            {{/if}}
+        </div>
+        <div class="col-md-2 margin-bottom-16 text-center">
+            {{#if fetchingDrugData}}
+                <div id="ajaxloader" style="display: block;"></div>
+            {{else}}
+                <button class='form-control cfg-button' {{action 'getAdverseEffectsForDrug'}}>Search!</button>
+            {{/if}}
+        </div>
+    </div>
+    {{#if drug}}
+        {{partial 'drug-info'}}
+    {{else}}
+        {{#if drugNotFound}}
+            <div class="row">
+                <div class="col-md-3 text-center margin-bottom-16">
+                    <div class="alert alert-danger"><p class="lead">Drug not found!</p></div>
+                </div>
+                <div class="col-md-7 margin-bottom-16">
+                    <div class="card">
+                        <h3>Possible reasons why drug data was not found:</h3>
+                        <ul>
+                            <li>We only have brand names from the USA for now. Try searching the 'generic name' of the drug, or</li>
+                            <li>There was a typo in your spelling of the drug, or</li>
+                            <li>The FDA has not included this drug for whatever reason, we are working towards
+                            adding data from more sources!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {{/if}}
+    {{/if}}
+
+</div>

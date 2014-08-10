@@ -138,6 +138,21 @@ html, body {
 .nav>li>a:hover, .nav>li>a:focus {
     background: rgb(235, 235, 235);
 }
+/*
+ * Drug component
+ */
+.autocomplete-row {
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    padding:4px;
+}
+.autocomplete-row > p {
+    margin:4px;
+}
+.autocomplete-row:hover {
+    background-color: rgb(241,241,241);
+}
 
 /*
  * Footer

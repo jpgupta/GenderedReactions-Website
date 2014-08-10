@@ -2,12 +2,23 @@
     <h2 class="margin-bottom-16">GenderedReactions.com: think seXY for excellent research</h2>
 
     <h4 class="cfgtext">Help discover how drugs affect men and women differently, tweet your findings with <a
-            href="https://twitter.com/search?q=%23sexymedicine" target="_blank">#sexymedicine</a></h4>
+            href="https://twitter.com/search?q=%23sexymedicine" target="_blank">#seXYmedicine</a></h4>
 
     <div class="row">
         <div class="col-md-10 margin-bottom-16">
             {{input type='text' value=searchTerm classNames='form-control cfg-input'
             placeholder='Enter a drug name to see some interesting info' action="getAdverseEffectsForDrug" }}
+            {{#if autocompleteNames.length}}
+                {{#each name in autocompleteNames}}
+                    <div class="row" {{action 'autocompleteSelected' name}}>
+                        <div class="col-md-12">
+                            <div class="autocomplete-row">
+                                <p>{{name}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            {{/if}}
         </div>
         <div class="col-md-2 margin-bottom-16 text-center">
             {{#if fetchingDrugData}}
@@ -17,77 +28,6 @@
             {{/if}}
         </div>
     </div>
-    {{#if drug}}
-        <div class="row">
-            <div class="col-md-3 margin-bottom-16">
-                <div class="card" style="overflow:auto;">
-                    <p class="lead uc-first">{{drug.genericName}}</p>
-
-                    <p class="lead">
-                        <small>Total reported side-effects</small>
-                        <font class="pull-right">{{overallEventCount}}</font>
-                    </p>
-                    <p class="lead">
-                        Male
-                    </p>
-
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar"
-                             aria-valuemin="0" aria-valuemax="100"
-                            {{bind-attr aria-valuenow=percentageOfMaleEvents
-                            style=maleTotalEventStyle}}>
-                            <span>{{percentageOfMaleEvents}}%</span>
-                        </div>
-                    </div>
-                    <p class="lead">
-                        Female
-                    </p>
-
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar"
-                             aria-valuemin="0" aria-valuemax="100"
-                            {{bind-attr aria-valuenow=percentageOfFemaleEvents
-                            style=femaleTotalEventStyle}}>
-                            <span>{{percentageOfFemaleEvents}}%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-9 margin-bottom-16">
-                <div class="card text-center">
-                    <h3>Distribution of Symptoms by Gender</h3>
-                    {{vertical-bar-chart
-                    data=topOverallAdverseEventsBarData
-                    selectedSeedColor='green'
-                    withinGroupPadding='0.05'
-                    betweenGroupPadding='0.05'
-                    }}
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 margin-bottom-16">
-                <div class="card">
-                    <h3>Top symptoms</h3>
-
-                    <p>On the right, we have taken the 10 most common
-                        symptoms for this drug and ordered them by total reports.
-                    </p>
-
-                    <p>The percentages show how common that symptom is
-                        within that gender.</p>
-                </div>
-            </div>
-            <div class="col-md-9 margin-bottom-16">
-                {{#each adverseEffect in topOverallAdverseEvents}}
-                    {{partial "fda-card"}}
-                {{/each}}
-            </div>
-        </div>
-    {{else}}
-        {{partial 'instructions'}}
-    {{/if}}
+    {{partial 'instructions'}}
 
 </div>

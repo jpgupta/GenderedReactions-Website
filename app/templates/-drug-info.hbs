@@ -1,0 +1,68 @@
+<div class="row">
+    <div class="col-md-3 margin-bottom-16">
+        <div class="card" style="overflow:auto;">
+            <p class="lead uc-first">{{drug.genericName}}</p>
+
+            <p class="lead">
+                <small>Total reported side-effects</small>
+                <font class="pull-right">{{overallEventCount}}</font>
+            </p>
+            <p class="lead">
+                Male
+            </p>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar"
+                     aria-valuemin="0" aria-valuemax="100"
+                    {{bind-attr aria-valuenow=percentageOfMaleEvents
+                    style=maleTotalEventStyle}}>
+                    <span>{{percentageOfMaleEvents}}%</span>
+                </div>
+            </div>
+            <p class="lead">
+                Female
+            </p>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar"
+                     aria-valuemin="0" aria-valuemax="100"
+                    {{bind-attr aria-valuenow=percentageOfFemaleEvents
+                    style=femaleTotalEventStyle}}>
+                    <span>{{percentageOfFemaleEvents}}%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 margin-bottom-16">
+        <div class="card text-center">
+            <h3>Distribution of Symptoms by Gender</h3>
+            {{vertical-bar-chart
+            data=topOverallAdverseEventsBarData
+            selectedSeedColor='green'
+            withinGroupPadding='0.05'
+            betweenGroupPadding='0.05'
+            }}
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-3 margin-bottom-16">
+        <div class="card">
+            <h3>Top symptoms</h3>
+
+            <p>On the right, we have taken the 10 most common
+                symptoms for this drug and ordered them by total reports.
+            </p>
+
+            <p>The percentages show how common that symptom is
+                within that gender.</p>
+        </div>
+    </div>
+    <div class="col-md-9 margin-bottom-16">
+        {{#each adverseEffect in topOverallAdverseEvents}}
+            {{partial "fda-card"}}
+        {{/each}}
+    </div>
+</div>
