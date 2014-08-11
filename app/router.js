@@ -18,5 +18,15 @@ Router.map(function () {
     this.route('checklist');
 });
 
+Router.reopen({
+    notifyGoogleAnalytics: function() {
+//        return ga('send', 'pageview', {
+//            'page': this.get('url'),
+//            'title': this.get('url')
+//        });
+        return _gaq.push(['_trackEvent', "page-view", "drug-search", "drug-name", this.get('url')]);
+    }.on('didTransition')
+});
+
 export default
 Router;
