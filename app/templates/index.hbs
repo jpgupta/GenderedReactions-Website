@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-10 margin-bottom-16">
             {{input type='text' value=searchTerm classNames='form-control cfg-input'
-            placeholder='Enter a drug name to see some interesting info' action="getAdverseEffectsForDrug" }}
+            placeholder='Enter a drug name (preferably the generic name)' action="getAdverseEffectsForDrug" }}
             {{#if autocompleteNames.length}}
                 {{#each name in autocompleteNames}}
                     <div class="row" {{action 'autocompleteSelected' name}}>
@@ -29,12 +29,5 @@
         </div>
     </div>
     {{partial 'instructions'}}
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <iframe class="margin-bottom-16" width="853" height="480" src="//www.youtube.com/embed/WeoPiJt8rhs"
-                    frameborder="0"
-                    allowfullscreen></iframe>
-        </div>
-    </div>
 
 </div>

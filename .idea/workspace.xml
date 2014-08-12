@@ -23,22 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="-drug-info.hbs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
+      <file leaf-file-name="-footer.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="-36.307693" vertical-offset="25" max-vertical-offset="1343">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state line="2" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="748">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drug.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/drug.js">
+      <file leaf-file-name="application.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="918">
+            <state line="4" column="2" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -47,16 +44,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
+            <state line="41" column="28" selection-start="1438" selection-end="1438" vertical-scroll-proportion="-16.461538" vertical-offset="269" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/router.js">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="7" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5842572" vertical-offset="0" max-vertical-offset="902">
+            <state line="151" column="1" selection-start="3242" selection-end="3242" vertical-scroll-proportion="0.057192374" vertical-offset="2534" max-vertical-offset="3128">
               <folding />
             </state>
           </provider>
@@ -71,6 +68,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/components/chart-scrubber.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/index.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/application.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/drug.js" root0="SKIP_HIGHLIGHTING" />
@@ -88,32 +86,33 @@
         <option value="$PROJECT_DIR$/Brocfile.js" />
         <option value="$PROJECT_DIR$/app/models/drug.js" />
         <option value="$PROJECT_DIR$/app/routes/index.js" />
-        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
-        <option value="$PROJECT_DIR$/app/styles/app.css" />
-        <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/drug.js" />
         <option value="$PROJECT_DIR$/app/controllers/index.js" />
-        <option value="$PROJECT_DIR$/app/templates/index.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/about.hbs" />
         <option value="$PROJECT_DIR$/app/templates/developers.hbs" />
         <option value="$PROJECT_DIR$/app/templates/disclaimer.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
         <option value="$PROJECT_DIR$/app/templates/case-studies.hbs" />
         <option value="$PROJECT_DIR$/app/templates/news.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-drug-info.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-instructions.hbs" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/routes/drug.js" />
         <option value="$PROJECT_DIR$/app/router.js" />
+        <option value="$PROJECT_DIR$/app/templates/about.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/app.css" />
+        <option value="$PROJECT_DIR$/app/app.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1374" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,13 +187,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfgmedicine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GenderedReactions-Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,15 +230,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.244713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -253,11 +270,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+    <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="69" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="884">
+        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/drug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/drug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="69" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app.css">
@@ -370,26 +441,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="23" selection-start="6295" selection-end="6295" vertical-scroll-proportion="0.3322034" vertical-offset="5431" max-vertical-offset="6902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="16" selection-start="3170" selection-end="3170" vertical-scroll-proportion="0.0" vertical-offset="2024" max-vertical-offset="3009" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/drug.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1003" />
+        <state line="331" column="23" selection-start="6295" selection-end="6295" vertical-scroll-proportion="0.3322034" vertical-offset="5431" max-vertical-offset="6902" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
@@ -409,73 +463,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/disclaimer.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
+        <state line="22" column="6" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="876" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/developers.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="120" selection-start="427" selection-end="535" vertical-scroll-proportion="0.13584475" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="65" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="876" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/case-studies.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="10" selection-start="3447" selection-end="3447" vertical-scroll-proportion="1.3972603" vertical-offset="0" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="72" column="10" selection-start="3447" selection-end="3447" vertical-scroll-proportion="1.3972603" vertical-offset="0" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/news.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.6792237" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
+        <state line="19" column="6" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="138" selection-end="138" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
+        <state line="3" column="48" selection-start="138" selection-end="138" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
+    <entry file="file://$PROJECT_DIR$/app/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="-36.307693" vertical-offset="25" max-vertical-offset="1343">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
+        <state line="31" column="7" selection-start="737" selection-end="737" vertical-scroll-proportion="0.8338983" vertical-offset="35" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -487,9 +500,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5842572" vertical-offset="0" max-vertical-offset="902">
+        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="1.718085" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.4822695" vertical-offset="34" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/drug.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="544" selection-end="544" vertical-scroll-proportion="0.27767694" vertical-offset="0" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="544" selection-end="544" vertical-scroll-proportion="0.17198582" vertical-offset="56" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="28" selection-start="1438" selection-end="1438" vertical-scroll-proportion="-16.461538" vertical-offset="269" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="1" selection-start="3242" selection-end="3242" vertical-scroll-proportion="0.057192374" vertical-offset="2534" max-vertical-offset="3128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.54745764" vertical-offset="0" max-vertical-offset="590">
           <folding />
         </state>
       </provider>
