@@ -35,7 +35,16 @@
       <file leaf-file-name="contact.hbs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="74" selection-start="778" selection-end="778" vertical-scroll-proportion="0.51241136" vertical-offset="0" max-vertical-offset="646">
+            <state line="10" column="66" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30141845" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-footer.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -100,7 +109,6 @@
         <option value="$PROJECT_DIR$/app/templates/about.hbs" />
         <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
         <option value="$PROJECT_DIR$/app/templates/index.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/drug.js" />
@@ -111,6 +119,7 @@
         <option value="$PROJECT_DIR$/public/script/jquery.realperson.php" />
         <option value="$PROJECT_DIR$/app/templates/-navigation-bar.hbs" />
         <option value="$PROJECT_DIR$/app/templates/contact.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
       </list>
     </option>
   </component>
@@ -538,11 +547,6 @@
         <state line="4" column="2" selection-start="44" selection-end="44" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="564" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.060283687" vertical-offset="0" max-vertical-offset="748" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/drug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="16" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.9305085" vertical-offset="0" max-vertical-offset="3400">
@@ -601,9 +605,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="74" selection-start="778" selection-end="778" vertical-scroll-proportion="0.51241136" vertical-offset="0" max-vertical-offset="646">
+        <state line="10" column="66" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30141845" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
