@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Contact us</h2>
+
+            <p class="margin-bottom-16">Do you have suggestions, concerns or feedback? Drop us a message and we'll get
+                back to
+                you
+                as soon as possible!</p>
+
+            <p>Want a quicker response? Why not tweet us
+                <a href="https://twitter.com/GenderMedKI" target="_blank">@GenderMedKI</a>
+                or <a href="https://twitter.com/TheThinkTrain" target="_blank">@TheThinkTrain</a>!</p>
+        </div>
+        <div class="col-md-8">
+            <div class="card margin-bottom-16">
+                <p>Full name (required)</p>
+                {{input type='text' classNames='form-control margin-bottom-16' value=fullName}}
+
+                <p>Your email (required)</p>
+                {{input type='email' classNames='form-control margin-bottom-16' value=email}}
+
+                <p>Subject</p>
+                {{input type='text' classNames='form-control margin-bottom-16' value=subject}}
+
+                <p>Message (required)</p>
+                {{textarea classNames='form-control margin-bottom-16' value=message}}
+
+                <button class="form-control button-pink" {{action 'sendMessage'}}>Send</button>
+            </div>
+        </div>
+    </div>
+</div>

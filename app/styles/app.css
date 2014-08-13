@@ -49,6 +49,10 @@ html, body {
     padding: 10px;
     height: auto;
 }
+.button-pink {
+    color: white;
+    background-color: rgb(133, 58, 106);
+}
 
 .cfgtext a {
     color: #bce8f1;

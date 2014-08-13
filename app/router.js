@@ -16,6 +16,7 @@ Router.map(function () {
     this.route('news');
     this.route('developers');
     this.route('checklist');
+    this.route('contact');
 });
 
 Router.reopen({
