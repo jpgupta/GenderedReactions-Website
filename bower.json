@@ -2,7 +2,7 @@
   "name": "cfgmedicine",
   "dependencies": {
     "handlebars": "~1.3.0",
-	"jquery": "^1.11.1",
+	"jquery": "~1.11.1",
     "underscore": "~1.6.0",
     "qunit": "~1.12.0",
     "ember-qunit": "~0.1.8",

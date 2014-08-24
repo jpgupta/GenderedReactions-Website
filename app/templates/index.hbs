@@ -4,30 +4,7 @@
     <h4 class="cfgtext">Help discover how drugs affect men and women differently, tweet your findings with <a
             href="https://twitter.com/search?q=%23sexymedicine" target="_blank">#seXYmedicine</a></h4>
 
-    <div class="row">
-        <div class="col-md-10 margin-bottom-16">
-            {{input type='text' value=searchTerm classNames='form-control cfg-input'
-            placeholder='Enter a drug name (preferably the generic name)' action="getAdverseEffectsForDrug" }}
-            {{#if autocompleteNames.length}}
-                {{#each name in autocompleteNames}}
-                    <div class="row" {{action 'autocompleteSelected' name}}>
-                        <div class="col-md-12">
-                            <div class="autocomplete-row">
-                                <p>{{name}}</p>
-                            </div>
-                        </div>
-                    </div>
-                {{/each}}
-            {{/if}}
-        </div>
-        <div class="col-md-2 margin-bottom-16 text-center">
-            {{#if fetchingDrugData}}
-                <div id="ajaxloader" style="display: block;"></div>
-            {{else}}
-                <button class='form-control cfg-button' {{action 'getAdverseEffectsForDrug'}}>Search!</button>
-            {{/if}}
-        </div>
-    </div>
+    {{partial 'drug-search'}}
     {{partial 'instructions'}}
 
 </div>

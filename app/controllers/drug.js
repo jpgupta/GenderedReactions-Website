@@ -8,8 +8,13 @@ SlideController
 from
 '../mixins/slide-controller';
 
+import
+AutocompleteDrug
+from
+'../mixins/autocomplete-drug';
+
 export default
-Ember.Controller.extend(SlideController, {
+Ember.Controller.extend(SlideController, AutocompleteDrug, {
     drugNotFound: false,
 
     overallEventCount: 0,
