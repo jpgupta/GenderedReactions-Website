@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-10 margin-bottom-16">
         {{input type='text' value=searchTerm classNames='form-control cfg-input'
-        placeholder='Enter a drug name (preferably the generic name)' action="getAdverseEffectsForDrug" }}
+        placeholder='Enter a drug name' action="getAdverseEffectsForDrug" }}
         {{#if autocompleteNames.length}}
             {{#each drug in autocompleteNames}}
                 <div class="row" {{action 'autocompleteSelected' drug.name}}>

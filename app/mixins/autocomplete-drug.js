@@ -4,6 +4,12 @@ export default Ember.Mixin.create({
     searchTerm: '',
 
     autocompleteNames: function () {
+        /*
+         * Remove this once we have a working
+         * autocomplete API
+         */
+        return [];
+
         var searchTerm = this.get('searchTerm');
         if(!searchTerm.length)
             return [];

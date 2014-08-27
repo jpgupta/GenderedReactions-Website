@@ -23,19 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="-drug-search.hbs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/-drug-search.hbs">
+      <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="559" selection-end="559" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="435">
+            <state line="7" column="30" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autocomplete-drug.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="-instructions.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="10" selection-start="1356" selection-end="1356" vertical-scroll-proportion="-12.0" vertical-offset="162" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.hbs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="63" selection-start="827" selection-end="827" vertical-scroll-proportion="0.30092594" vertical-offset="15" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-drug-search.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/-drug-search.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="16" selection-start="835" selection-end="835" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autocomplete-drug.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mixins/autocomplete-drug.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.27210885" vertical-offset="0" max-vertical-offset="441">
+            <state line="20" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -49,17 +76,17 @@
     </FindUsagesManager>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/app/mixins/slide-controller.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/application.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/initializers/preload-objects.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/mixins/slide-controller.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/contact.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/routes/drug.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/initializers/preload-objects.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/drug.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/routes/drug.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/index.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/router.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/mixins/autocomplete-drug.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/components/chart-scrubber.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/app.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -75,9 +102,7 @@
         <option value="$PROJECT_DIR$/app/templates/case-studies.hbs" />
         <option value="$PROJECT_DIR$/app/templates/news.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-drug-info.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/-instructions.hbs" />
         <option value="$PROJECT_DIR$/app/routes/drug.js" />
-        <option value="$PROJECT_DIR$/app/templates/about.hbs" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/router.js" />
@@ -88,14 +113,16 @@
         <option value="$PROJECT_DIR$/app/templates/-navigation-bar.hbs" />
         <option value="$PROJECT_DIR$/app/templates/contact.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-footer.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/index.hbs" />
         <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
         <option value="$PROJECT_DIR$/app/initializers/preload-objects.js" />
         <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/app/templates/-drug-search.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/index.js" />
         <option value="$PROJECT_DIR$/app/controllers/drug.js" />
+        <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/-drug-search.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/-instructions.hbs" />
         <option value="$PROJECT_DIR$/app/mixins/autocomplete-drug.js" />
+        <option value="$PROJECT_DIR$/app/templates/about.hbs" />
       </list>
     </option>
   </component>
@@ -131,7 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,6 +204,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfgmedicine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GenderedReactions-Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mixins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -202,6 +246,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,11 +283,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25178826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -250,11 +295,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -276,9 +321,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="28" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/router.js">
@@ -421,11 +464,6 @@
         <state line="19" column="6" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="138" selection-end="138" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/drug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="8" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="918" />
@@ -434,11 +472,6 @@
     <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="1.718085" vertical-offset="0" max-vertical-offset="1343" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.4822695" vertical-offset="34" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
@@ -463,9 +496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="82" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="37" column="82" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-navigation-bar.hbs">
@@ -475,84 +506,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="66" selection-start="381" selection-end="381" vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
+        <state line="10" column="66" selection-start="381" selection-end="381" vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-footer.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="10" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="569" selection-end="569" vertical-scroll-proportion="0.3537415" vertical-offset="159" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="569" selection-end="569" vertical-scroll-proportion="0.3537415" vertical-offset="159" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/script/jquery.realperson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="806" selection-end="806" vertical-scroll-proportion="0.676259" vertical-offset="93" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="25" column="26" selection-start="806" selection-end="806" vertical-scroll-proportion="0.676259" vertical-offset="93" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/drug.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540">
+        <state line="6" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/initializers/preload-objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="28" selection-end="87" vertical-scroll-proportion="0.17006803" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/drug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/-drug-search.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="835" selection-end="835" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="402" selection-end="402" vertical-scroll-proportion="0.20833333" vertical-offset="0" max-vertical-offset="648">
+        <state line="7" column="30" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/initializers/preload-objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="28" selection-end="87" vertical-scroll-proportion="0.17006803" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/drug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/-drug-search.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="559" selection-end="559" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="435">
+        <state line="30" column="10" selection-start="1356" selection-end="1356" vertical-scroll-proportion="-12.0" vertical-offset="162" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mixins/autocomplete-drug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.27210885" vertical-offset="0" max-vertical-offset="441">
+        <state line="20" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="63" selection-start="827" selection-end="827" vertical-scroll-proportion="0.30092594" vertical-offset="15" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
