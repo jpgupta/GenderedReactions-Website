@@ -26,17 +26,48 @@
       <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="107" selection-start="227" selection-end="310" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+            <state line="3" column="107" selection-start="227" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="-instructions.hbs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="-instructions.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="108" selection-start="727" selection-end="727" vertical-scroll-proportion="0.39568347" vertical-offset="0" max-vertical-offset="840">
-              <folding />
+            <state line="50" column="36" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-13.625" vertical-offset="423" max-vertical-offset="855">
+              <folding>
+                <marker date="1409780834000" expanded="true" signature="16:796" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="61:789" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="88:778" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="156:763" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="177:377" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="181:372" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="553:745" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="557:740" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="814:2330" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="858:1560" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="885:1549" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="941:1283" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="1300:1534" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="1604:2323" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="1631:2312" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="1688:2038" placeholder="..." />
+                <marker date="1409780834000" expanded="true" signature="2055:2297" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="developers.hbs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/developers.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="28" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.8168317" vertical-offset="105" max-vertical-offset="570">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,17 +80,17 @@
     </FindUsagesManager>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/app/mixins/slide-controller.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/application.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/initializers/preload-objects.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/mixins/slide-controller.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/contact.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/routes/drug.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/initializers/preload-objects.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/drug.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/routes/drug.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/index.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/router.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/mixins/autocomplete-drug.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/components/chart-scrubber.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/app.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -70,7 +101,6 @@
         <option value="$PROJECT_DIR$/Brocfile.js" />
         <option value="$PROJECT_DIR$/app/models/drug.js" />
         <option value="$PROJECT_DIR$/app/routes/index.js" />
-        <option value="$PROJECT_DIR$/app/templates/developers.hbs" />
         <option value="$PROJECT_DIR$/app/templates/disclaimer.hbs" />
         <option value="$PROJECT_DIR$/app/templates/case-studies.hbs" />
         <option value="$PROJECT_DIR$/app/templates/news.hbs" />
@@ -96,6 +126,7 @@
         <option value="$PROJECT_DIR$/app/templates/about.hbs" />
         <option value="$PROJECT_DIR$/app/templates/drug.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-instructions.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/developers.hbs" />
       </list>
     </option>
   </component>
@@ -252,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="790" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="790" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -260,7 +291,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25894135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26251787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -268,11 +299,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -422,11 +453,6 @@
         <state line="22" column="6" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="876" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/developers.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="876" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/case-studies.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="10" selection-start="3447" selection-end="3447" vertical-scroll-proportion="1.3972603" vertical-offset="0" max-vertical-offset="1360" />
@@ -514,50 +540,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4676259" vertical-offset="15" max-vertical-offset="1290">
-          <folding />
-        </state>
+        <state line="14" column="63" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4676259" vertical-offset="15" max-vertical-offset="1290" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-drug-info.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="2.0503597" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="57" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="2.0503597" vertical-offset="0" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/drug.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="93" selection-start="117" selection-end="117" vertical-scroll-proportion="0.035971224" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+        <state line="1" column="93" selection-start="117" selection-end="117" vertical-scroll-proportion="0.035971224" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-drug-search.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="835" selection-end="835" vertical-scroll-proportion="0.64028776" vertical-offset="18" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="19" column="16" selection-start="835" selection-end="835" vertical-scroll-proportion="0.64028776" vertical-offset="18" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mixins/autocomplete-drug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.6802721" vertical-offset="0" max-vertical-offset="441">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.6802721" vertical-offset="0" max-vertical-offset="441" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="107" selection-start="227" selection-end="310" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+        <state line="3" column="107" selection-start="227" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/-instructions.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="108" selection-start="727" selection-end="727" vertical-scroll-proportion="0.39568347" vertical-offset="0" max-vertical-offset="840">
-          <folding />
+        <state line="50" column="36" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-13.625" vertical-offset="423" max-vertical-offset="855">
+          <folding>
+            <marker date="1409780834000" expanded="true" signature="16:796" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="61:789" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="88:778" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="156:763" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="177:377" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="181:372" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="553:745" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="557:740" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="814:2330" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="858:1560" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="885:1549" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="941:1283" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="1300:1534" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="1604:2323" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="1631:2312" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="1688:2038" placeholder="..." />
+            <marker date="1409780834000" expanded="true" signature="2055:2297" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/developers.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.8168317" vertical-offset="105" max-vertical-offset="570">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
